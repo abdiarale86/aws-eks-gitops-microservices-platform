@@ -47,3 +47,7 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# Saved Terraform plan files (any name)
+tfplan
+tfplan.*

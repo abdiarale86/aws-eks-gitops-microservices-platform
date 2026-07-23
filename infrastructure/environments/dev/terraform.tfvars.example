@@ -1,0 +1,16 @@
+aws_region   = "ca-central-1"
+project_name = "aws-eks-gitops-microservices-platform"
+environment  = "dev"
+
+vpc_cidr = "10.10.0.0/16"
+az_count = 2
+
+enable_nat_gateway = true
+single_nat_gateway = true
+
+cluster_name = "gitops-dev-eks"
+
+tags = {
+  Owner      = "Abdi"
+  Repository = "aws-eks-gitops-microservices-platform"
+}
